@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2 VM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..300;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="resources/icono.jpeg" alt="logo de la página">
+        </div>
+        <div class="titulo">
+            <h1>El Muslito</h1>
+        </div>
+    </header>
+    <div class="container contenido-principal">
+
+        <aside class="menu">
+            <nav class="lista">
+                <a href="">Recetas</a>
+                <a href="">Reservas</a>
+                <a href="">Horario</a>
+            </nav>
+        </aside>
+        <main class="blog">
+            <h2>Pollo al chilindrón</h2>
+            <article class="ingredientes">
+                <h3>Ingredientes</h3>
+                <ul>
+                    <li>600 g pollo a trozos</li>
+                    <li>1 pimiento verda</li>
+                    <li>1 pimiento rojo</li>
+                    <li>1 cebolla</li>
+                    <li>2 tomates pelados y triturados</li>
+                    <li>2 dientes de ajo</li>
+                    <li>100 ml vino blanco</li>
+                    <li>sal</li>
+                    <li>pimienta negra molida</li>
+                    <li>1 hoja de laurel</li>
+                </ul>
+            </article>
+            <picture class="imagen">
+                <source type="image/webp" srcset="resources/imagen-redimensionada.webp">
+                <source type="image/jpeg" srcset="resources/imagen.jpeg">
+                <img src="resources/imagen.jpeg" alt="pollo al chilindron" loading="lazy">
+            </picture>
+            <article class="elaboracion">
+                <h3>Elaboración</h3>
+                <p>Salpimentamos las piezas de pollo. Calentamos un poco de aceite en una sartén y doramos ligeramente.
+                    Retiramos y reservamos.</p>
+                <p>Preparamos un sofrito. Pelamos y picamos finamente los dientes de ajo. Pelamos y picamos la cebolla.
+                    Calentamos un poco de aceite de oliva virgen extra en una sartén o cazuela y pochamos ambos a fuego
+                    muy suave durante cinco minutos.</p>
+                <p>Mientras tanto lavamos los pimientos, retiramos sus pedúnculos y semillas y cortamos en pequeños
+                    cuadrados (mirepox). Añadimos los pimientos a la sartén, la hoja de laurel y continuamos la cocción
+                    durante cinco minutos más. Pelamos los tomates, los rallamos y añadimos a la sartén. Removemos,
+                    salpimentamos al gusto y cocemos un par de minutos a fuego fuerte dejando que el agua del tomate se
+                    evapore.</p>
+                <video controls height="500" width="600">
+                    <source src="resources/pollo.webm" type="video/webm">
+                    <source src="resources/pollo.ogg" type="video/ogg">
+                    <source src="resources/pollo.mp4" type="video/mp4">
+                </video>
+                <p>Por último agregamos el vino y el pollo, ajustamos de nuevo el punto de sal y pimienta, tapamos la
+                    sartén y cocemos durante unos 15-20 minutos o hasta que el pollo esté hecho en su interior y salsa
+                    se haya vuelto espesa. El tiempo dependerá del tamaño de las piezas de pollo elegidas. Servimos
+                    inmediatamente o dejamos atemperar antes de guardar en la nevera.</p>
+            </article>
+            <audio autoplay loop controls>
+                <source src="resources/PolloAudio.mp3" type="audio/mp3">
+                <source src="resources/PolloAudio.ogg" type="audio/ogg">
+            </audio>
+            </section>
+        </main>
+    </div>
+
+    <footer class="container">
+        <img class="gif" src="resources/rotisserie-chicken-chicken.gif" alt="gif del pollo">
+        <p>Página elaborada por: Victor Molins Martinez</p>
+    </footer>
+</body>
+
+</html>
