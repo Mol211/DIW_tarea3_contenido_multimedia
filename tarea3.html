@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarea 2 VM</title>
+    <title>Tarea 3 VM</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,29 +32,32 @@
             </nav>
         </aside>
         <main class="blog">
-            <h2>Pollo al chilindrón</h2>
-            <article class="ingredientes">
-                <h3>Ingredientes</h3>
-                <ul>
-                    <li>600 g pollo a trozos</li>
-                    <li>1 pimiento verda</li>
-                    <li>1 pimiento rojo</li>
-                    <li>1 cebolla</li>
-                    <li>2 tomates pelados y triturados</li>
-                    <li>2 dientes de ajo</li>
-                    <li>100 ml vino blanco</li>
-                    <li>sal</li>
-                    <li>pimienta negra molida</li>
-                    <li>1 hoja de laurel</li>
-                </ul>
-            </article>
-            <picture class="imagen">
-                <source type="image/webp" srcset="resources/imagen-redimensionada.webp">
-                <source type="image/jpeg" srcset="resources/imagen.jpeg">
-                <img src="resources/imagen.jpeg" alt="pollo al chilindron" loading="lazy">
-            </picture>
+            <h2 class="titulo">Pollo al chilindrón</h2>
+            <div class="contenido">
+                <article class="ingredientes">
+                    <h3 class="titulo">Ingredientes</h3>
+                    <ul>
+                        <li>600 g pollo a trozos</li>
+                        <li>1 pimiento verda</li>
+                        <li>1 pimiento rojo</li>
+                        <li>1 cebolla</li>
+                        <li>2 tomates pelados y triturados</li>
+                        <li>2 dientes de ajo</li>
+                        <li>100 ml vino blanco</li>
+                        <li>sal</li>
+                        <li>pimienta negra molida</li>
+                        <li>1 hoja de laurel</li>
+                    </ul>
+                </article>
+                <picture class="imagen">
+                    <source type="image/webp" srcset="resources/imagen-redimensionada.webp">
+                    <source type="image/jpeg" srcset="resources/imagen.jpeg">
+                    <img src="resources/imagen.jpeg" alt="pollo al chilindron" loading="lazy">
+                </picture>
+            </div>
+
             <article class="elaboracion">
-                <h3>Elaboración</h3>
+                <h3 class="titulo">Elaboración</h3>
                 <p>Salpimentamos las piezas de pollo. Calentamos un poco de aceite en una sartén y doramos ligeramente.
                     Retiramos y reservamos.</p>
                 <p>Preparamos un sofrito. Pelamos y picamos finamente los dientes de ajo. Pelamos y picamos la cebolla.
@@ -65,7 +68,7 @@
                     durante cinco minutos más. Pelamos los tomates, los rallamos y añadimos a la sartén. Removemos,
                     salpimentamos al gusto y cocemos un par de minutos a fuego fuerte dejando que el agua del tomate se
                     evapore.</p>
-                <video controls height="500" width="600">
+                <video controls class="video">
                     <source src="resources/pollo.webm" type="video/webm">
                     <source src="resources/pollo.ogg" type="video/ogg">
                     <source src="resources/pollo.mp4" type="video/mp4">
@@ -75,7 +78,7 @@
                     se haya vuelto espesa. El tiempo dependerá del tamaño de las piezas de pollo elegidas. Servimos
                     inmediatamente o dejamos atemperar antes de guardar en la nevera.</p>
             </article>
-            <audio autoplay loop controls>
+            <audio class="audio" autoplay loop controls>
                 <source src="resources/PolloAudio.mp3" type="audio/mp3">
                 <source src="resources/PolloAudio.ogg" type="audio/ogg">
             </audio>
